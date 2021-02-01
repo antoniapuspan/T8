@@ -1,0 +1,60 @@
+header nav {
+	display: flex;
+
+	justify-content: center;
+}
+
+#logo-nav {
+	display: block;
+	height: 100px;
+	position: relative;
+
+}
+
+nav {
+	align-self: center;
+	flex-direction: row;
+	width: 100%;
+}
+
+
+ul li {
+	display: inline-block;
+}
+
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	background-color: transparent;
+	padding: 10px;
+	flex: 0 1 auto;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+	color: #004155;
+}
+#support {
+    background-color: #DFEB47;
+    padding: 8px 20px;
+    border-radius: 55px;
+}
+
+main {
+	position: relative;
+	grid-row: 1/4;
+	grid-column: 1/4;
+	height: 100%;
+	display: grid;
+}
+
+
+@media screen and (max-width: 500px) {
+	#navigation {
+		height: auto;
+		margin-bottom: 80px;
+	}
+}
