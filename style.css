@@ -29,3 +29,7 @@ main p {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 }
+#my-img {
+	display: block;
+	width: 100%;
+}
