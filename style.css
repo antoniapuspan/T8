@@ -41,7 +41,7 @@
 #split-2b2{
 	display: flex;
 	flex-direction: column;
-	margin: auto;
+	margin: 75px auto;
 }
 
 section{
@@ -64,9 +64,15 @@ section{
 }
 
 .split-img{
-	width: 400px;
-	height: 400px;
+	width: 350px;
+	height: 350px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+iframe {
+	margin: 30px auto;
+	width: 1000px;
+	height: 564px;
 }
