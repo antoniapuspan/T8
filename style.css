@@ -5,12 +5,20 @@
 	scroll-behavior: smooth;
 }
 
+.button {
+    background-color: #DFEB47;
+    padding: 8px 20px;
+	border-radius: 55px;
+	border: 0;
+	cursor: pointer;
+}
 
-main {
+.button:focus {
+	outline: 0;
+}
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.button:hover{
+    background-color: #c2c967;
 }
 
 .hero-img {
@@ -23,14 +31,42 @@ main {
 	background-size: cover;
 }
 
-main p {
-	display: flex;
-	margin: 0 260px;
+#intro-text{
+	width: 1000px;
+	margin: auto;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 }
 
-#my-img {
-	display: block;
-	width: 100%;
+#split-2b2{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+section{
+	width: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.split-text{
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+}
+
+.split-text .button{
+	margin-top: 10px;
+	align-self: center;
+}
+
+.split-img{
+	width: 400px;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
