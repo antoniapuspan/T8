@@ -5,7 +5,7 @@ nav {
 	flex-direction: row;
 	justify-content: center;
 	width: 1000px;
-	margin: auto;
+	margin: 10px auto;
 }
 
 #logo-nav {
