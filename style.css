@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
 * {
 	margin: 0;
 	padding: 0;
 }
-
 .button {
     background-color: #DFEB47;
     padding: 8px 20px;
 	border-radius: 55px;
 	border: 0;
 	cursor: pointer;
+	
 }
 
 .button:focus {
@@ -21,58 +19,8 @@
     background-color: #c2c967;
 }
 
-.hero-img {
-	width: 1000px;
-	height: 450px;
-	margin: 30px auto;
-	background-image: url(img/hero-img.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#intro-text{
-	width: 1000px;
-	margin: auto;
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
-}
-
-#split-2b2{
-	display: flex;
-	flex-direction: column;
-	margin: 75px auto;
-}
-
-section{
-	width: 1000px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	justify-items: center;
-	align-items: center;
-}
-
-.split-text{
-	width: 350px;
-	display: flex;
-	flex-direction: column;
-}
-
-.split-text .button{
-	margin-top: 10px;
-	align-self: center;
-}
-
-.split-img{
-	width: 350px;
-	height: 350px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 iframe {
 	margin: 30px auto;
 	width: 1000px;
-	height: 564px;
+	height: 563px;
 }
